@@ -1,3 +1,9 @@
+name: Mon Flux de Travail
+
+on:
+  push:  # Cet événement déclenchera le flux de travail lorsqu'il y a un push vers le dépôt
+    branches:
+      - main  # Vous pouvez spécifier ici la branche qui doit déclencher le flux de travail
 jobs:
   example_job:
     runs-on: ubuntu-latest
